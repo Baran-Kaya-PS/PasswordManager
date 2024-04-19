@@ -14,4 +14,15 @@ public class Password {
         this.encryptedPassword = encryptedPassword;
     }
 
+    public String getEncryptedPassword() {
+        return encryptedPassword;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getWebsite() {
+        return website;
+    }
 }
