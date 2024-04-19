@@ -1,9 +1,9 @@
 package model;
 
 public class Password {
-    private String website;
-    private String username;
-    protected String encryptedPassword;
+    private final String website;
+    private final String username;
+    protected final String encryptedPassword;
     private PasswordManager passwordManager;
     public Password(String website, String username, String encryptedPassword){
         this.website = website;
